@@ -6,9 +6,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-public class TemplateApplication {
+public class BrokenApplication {
     public static void main(String[] args) {
-        SpringApplication.run(TemplateApplication.class, args);
+        SpringApplication.run(BrokenApplication.class, args);
     }
 }
 
